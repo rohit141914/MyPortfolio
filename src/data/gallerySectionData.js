@@ -1,0 +1,20 @@
+export const gallerySection = {
+  scrollAnchor: { id: 'text43', instance: '43', scrollId: 's7' },
+  galleryId: 'gallery14',
+  galleryInstance: '14',
+  images: [
+    { n: '01', src: '/assets/images/gallery14/6b3eb2e7.jpg', href: '/assets/images/gallery14/6b3eb2e7_original.jpg', alt: 'Untitled', caption: 'Untitled' },
+    { n: '02', src: '/assets/images/gallery14/3621b865.jpg', href: '/assets/images/gallery14/3621b865_original.jpg', alt: 'Untitled', caption: 'Untitled' },
+    { n: '03', src: '/assets/images/gallery14/6f930bdb.jpg', href: '/assets/images/gallery14/6f930bdb_original.jpg', alt: 'Untitled', caption: 'Untitled' },
+    { n: '04', src: '/assets/images/gallery14/d77abeee.jpg', href: '/assets/images/gallery14/d77abeee_original.jpg', alt: 'Untitled', caption: 'Untitled' },
+    { n: '05', src: '/assets/images/gallery14/91d61d9a.jpg', href: '/assets/images/gallery14/91d61d9a_original.jpg', alt: 'Untitled', caption: 'Untitled' },
+    { n: '06', src: '/assets/images/gallery14/142bfe21.jpg', href: '/assets/images/gallery14/142bfe21_original.jpg', alt: 'Untitled', caption: 'Untitled' },
+    { n: '07', src: '/assets/images/gallery14/f7f35362.jpg', href: '/assets/images/gallery14/f7f35362_original.jpg', alt: 'Untitled', caption: 'Untitled' },
+    { n: '08', src: '/assets/images/gallery14/a647c2ac.jpg', href: '/assets/images/gallery14/a647c2ac_original.jpg', alt: 'Untitled', caption: 'Untitled' },
+    { n: '09', src: '/assets/images/gallery14/ed1e50ed.jpg', href: '/assets/images/gallery14/ed1e50ed_original.jpg', alt: 'Untitled', caption: 'Untitled' },
+  ],
+  buttonId: 'buttons08',
+  buttonInstance: '8',
+  dividerId: 'divider01',
+  dividerInstance: '1',
+}
