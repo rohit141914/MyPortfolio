@@ -32,6 +32,7 @@ function ResumeContent() {
       <span className="p">..................................................................................</span>
       <span className="p"><strong>• • • LANGUAGES • • •</strong></span>
       <span className="p"><strong>English</strong></span>
+      <span className="p"><strong>Hindi</strong></span>
     </div>
   )
 }
