@@ -1,9 +1,4 @@
-const ICONS = [
-  { key: 'linkedin',   label: 'LinkedIn' },
-  { key: 'artstation', label: 'ArtStation' },
-  { key: 'cara',       label: 'Cara' },
-  { key: 'instagram',  label: 'Instagram' },
-]
+import { ICONS } from '../data/socialIconsData.js'
 
 function SocialIcons({ id, instance }) {
   return (
@@ -13,7 +8,7 @@ function SocialIcons({ id, instance }) {
         const titleId = `${id}-icon-${n}-title`
         return (
           <li key={icon.key}>
-            <a className={`n0${n}`} href="#" role="button">
+            <a className={`n0${n}`} href={icon.href} target="_blank" rel="noreferrer" role="button">
               <svg aria-labelledby={titleId}>
                 <title id={titleId}>{icon.label}</title>
                 <use href={`/assets/icons.svg#${icon.key}`}></use>
