@@ -30,7 +30,8 @@ function EsSection() {
                 </li>
               </ul>
               <p id="text31" className="text-component instance-31">
-                <span className="p"><strong>• • • PROFILE • • •</strong><br />Software Engineer with experience in backend systems and AI integration. Skilled in building full-stack products, REST APIs, and LLM-powered workflows. Passionate about clean architecture, developer tooling, and building things that scale.</span>
+                <span className="p"><strong>• • • PROFILE • • •</strong></span>
+                <span className="p">Full-stack Software Engineer specializing in backend systems and AI integration. Experienced across startups and BFSI companies — building scalable APIs, LLM-powered workflows, compliance automation, and data pipelines. Proficient in Node.js, Django, Python, React, and AWS. Passionate about applying AI (RAG, LangGraph, fine-tuning) to solve real-world engineering problems efficiently.</span>
                 <span className="p">..................................................................................</span>
                 <span className="p"><strong>• • • EMPLOYMENT • • •</strong></span>
                 {employmentEntries.map((entry, i) => (

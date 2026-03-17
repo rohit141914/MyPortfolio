@@ -15,8 +15,10 @@ function ResumePanel() {
           <a href="#" className="n01" role="button"><svg aria-labelledby="buttons01-icon-1-title"><title id="buttons01-icon-1-title">PDF Document</title><use href="/assets/icons.svg#pdf"></use></svg><span className="label">Download My Resume</span></a>
         </li>
       </ul>
-      <span className="p"><strong>• • • PROFILE • • •</strong><br />Software Engineer with experience in backend systems and AI integration. Skilled in building full-stack products, REST APIs, and LLM-powered workflows. Passionate about clean architecture, developer tooling, and building things that scale.</span>
-      <span className="p">..................................................................................</span>
+      <div className="text-component instance-11">
+        <span className="p"><strong>• • • PROFILE • • •</strong></span>
+        <span className="p">Full-stack Software Engineer specializing in backend systems and AI integration. Experienced across startups and BFSI companies — building scalable APIs, LLM-powered workflows, compliance automation, and data pipelines. Proficient in Node.js, Django, Python, React, and AWS. Passionate about applying AI (RAG, LangGraph, fine-tuning) to solve real-world engineering problems efficiently.</span>
+      </div>
     </div>
   )
 }
