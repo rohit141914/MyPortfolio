@@ -5,7 +5,7 @@ function ResumePanel() {
         <div className="inner">
           <ul>
             <li>
-              <a href="/assets/images/gallery02/a3df0269_original.jpg" className="thumbnail n01" onContextMenu={(e) => e.preventDefault()} onDragStart={(e) => e.preventDefault()} onAuxClick={(e) => e.preventDefault()}><span className="frame"><img src="/assets/images/gallery02/a3df0269.jpg" alt="Untitled" title="Untitled" onContextMenu={(e) => e.preventDefault()} onDragStart={(e) => e.preventDefault()} onAuxClick={(e) => e.preventDefault()} /></span></a>
+              <a href="/assets/images/gallery02/a3df0269_original.jpg" className="thumbnail n01" onContextMenu={(e) => e.preventDefault()} onDragStart={(e) => e.preventDefault()} onAuxClick={(e) => e.preventDefault()}><span className="frame"><img src="/assets/images/gallery02/a3df0269_original.jpg" alt="Untitled" title="Untitled" onContextMenu={(e) => e.preventDefault()} onDragStart={(e) => e.preventDefault()} onAuxClick={(e) => e.preventDefault()} /></span></a>
             </li>
           </ul>
         </div>

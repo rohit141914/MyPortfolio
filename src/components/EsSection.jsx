@@ -19,7 +19,7 @@ function EsSection() {
                 <div className="inner">
                   <ul>
                     <li>
-                      <a href="/assets/images/gallery03/93769694_original.jpg" className="thumbnail n01" onContextMenu={(e) => e.preventDefault()} onDragStart={(e) => e.preventDefault()} onAuxClick={(e) => e.preventDefault()}><span className="frame"><img src="/assets/images/gallery03/93769694.jpg" alt="Untitled" title="Untitled" onContextMenu={(e) => e.preventDefault()} onDragStart={(e) => e.preventDefault()} onAuxClick={(e) => e.preventDefault()} /></span></a>
+                      <a href="/assets/images/gallery03/93769694_original.jpg" className="thumbnail n01" onContextMenu={(e) => e.preventDefault()} onDragStart={(e) => e.preventDefault()} onAuxClick={(e) => e.preventDefault()}><span className="frame"><img src="/assets/images/gallery03/93769694_original.jpg" alt="Untitled" title="Untitled" onContextMenu={(e) => e.preventDefault()} onDragStart={(e) => e.preventDefault()} onAuxClick={(e) => e.preventDefault()} /></span></a>
                     </li>
                   </ul>
                 </div>

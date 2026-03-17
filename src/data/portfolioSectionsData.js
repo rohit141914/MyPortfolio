@@ -13,8 +13,8 @@ export const portfolioSections = [
     galleryInstance: '1',
     galleryClass: 'full',
     images: [
-      { n: '01', src: '/assets/images/gallery01/1670ca23.jpg', href: '/assets/images/gallery01/1670ca23_original.jpg', alt: 'Figma AI Assistant', caption: 'Figma AI Assistant' },
-      { n: '02', src: '/assets/images/gallery01/4ba0f3ad.jpg', href: '/assets/images/gallery01/4ba0f3ad_original.jpg', alt: 'Figma AI Assistant', caption: 'Figma AI Assistant' },
+      { n: '01', src: '/assets/images/gallery01/1670ca23_original.jpg', href: '/assets/images/gallery01/1670ca23_original.jpg', alt: 'Figma AI Assistant', caption: 'Figma AI Assistant' },
+      { n: '02', src: '/assets/images/gallery01/4ba0f3ad_original.jpg', href: '/assets/images/gallery01/4ba0f3ad_original.jpg', alt: 'Figma AI Assistant', caption: 'Figma AI Assistant' },
     ],
     buttonId: 'buttons11',
     buttonInstance: '11',
@@ -33,8 +33,8 @@ export const portfolioSections = [
     galleryInstance: '8',
     galleryClass: 'full',
     images: [
-      { n: '01', src: '/assets/images/gallery08/90a4438a.jpg', href: '/assets/images/gallery08/90a4438a_original.jpg', alt: 'Quiz Web App', caption: 'Quiz Web App' },
-      { n: '02', src: '/assets/images/gallery08/d2c6ce71.jpg', href: '/assets/images/gallery08/d2c6ce71_original.jpg', alt: 'Admin Panel', caption: 'Admin Panel' },
+      { n: '01', src: '/assets/images/gallery08/90a4438a_original.jpg', href: '/assets/images/gallery08/90a4438a_original.jpg', alt: 'Quiz Web App', caption: 'Quiz Web App' },
+      { n: '02', src: '/assets/images/gallery08/d2c6ce71_original.jpg', href: '/assets/images/gallery08/d2c6ce71_original.jpg', alt: 'Admin Panel', caption: 'Admin Panel' },
     ],
     buttonId: 'buttons07',
     buttonInstance: '11',
@@ -53,8 +53,8 @@ export const portfolioSections = [
     galleryInstance: '6',
     galleryClass: 'full',
     images: [
-      { n: '01', src: '/assets/images/gallery06/658091e2.jpg', href: '/assets/images/gallery06/658091e2_original.jpg', alt: 'PDF Management', caption: 'PDF Management' },
-      { n: '02', src: '/assets/images/gallery06/9ac0c742.jpg', href: '/assets/images/gallery06/9ac0c742_original.jpg', alt: 'Collaboration', caption: 'Collaboration' },
+      { n: '01', src: '/assets/images/gallery06/658091e2_original.jpg', href: '/assets/images/gallery06/658091e2_original.jpg', alt: 'PDF Management', caption: 'PDF Management' },
+      { n: '02', src: '/assets/images/gallery06/9ac0c742_original.jpg', href: '/assets/images/gallery06/9ac0c742_original.jpg', alt: 'Collaboration', caption: 'Collaboration' },
     ],
     buttonId: 'buttons15',
     buttonInstance: '15',
