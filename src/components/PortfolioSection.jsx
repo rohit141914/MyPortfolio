@@ -14,8 +14,8 @@ function PortfolioSection({
       )}
       <div id={containerId} className={`container-component instance-${containerInstance} columns`}>
         <div className="wrapper">
-          <div className="inner">
-            <div>
+          <div className="inner" style={{ display: 'flex', gap: '24px' }}>
+            <div style={{ flex: 1 }}>
               <div id={imageId} className={`image-component instance-${imageInstance}`}>
                 <span className="frame"><img src={imageSrc} alt="" onContextMenu={(e) => e.preventDefault()} onDragStart={(e) => e.preventDefault()} /></span>
               </div>
@@ -24,10 +24,10 @@ function PortfolioSection({
                 <span className="p">{description}</span>
               </p>
             </div>
-            <div>
+            <div style={{ flex: 2 }}>
               <div id={galleryId} className={`gallery-component instance-${galleryInstance} ${galleryClass}`}>
                 <div className="inner">
-                  <ul>
+                  <ul style={{ display: 'flex', flexWrap: 'wrap', gap: '16px' }}>
                     {images.map((img) => (
                       <li key={img.n}>
                         <a href={img.href} className={`thumbnail n${img.n}`} onContextMenu={(e) => e.preventDefault()} onDragStart={(e) => e.preventDefault()} onAuxClick={(e) => e.preventDefault()}>

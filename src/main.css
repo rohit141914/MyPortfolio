@@ -138,7 +138,7 @@ unloaded-script {
 
 .site-main > .inner {
 	--padding-horizontal: 3rem;
-	--padding-vertical: 3.375rem;
+	--padding-vertical: 1.375rem;
 	--spacing: 0.75rem;
 	--width: 70rem;
 	border-radius: var(--border-radius-tl) var(--border-radius-tr) var(--border-radius-br) var(--border-radius-bl);
@@ -252,8 +252,11 @@ body.is-instant::after {
 }
 
 .text-component span.p {
+	font-size: 16px;
 	display: block;
 	position: relative;
+	width: 100%;
+	text-align: justify;
 }
 
 .text-component span[style], .text-component strong, .text-component a, .text-component code, .text-component mark, .text-component spoiler-text {
@@ -1367,6 +1370,7 @@ body.is-instant::after {
 
 .image-component.instance-2 > .frame {
 	width: 9rem;
+	height: 9rem;
 	border-radius: 100%;
 	transition: none;
 }
@@ -4232,11 +4236,11 @@ body.is-instant::after {
 }
 
 .divider-component.instance-6:not(:first-child) {
-	margin-top: 0.125rem !important;
+	margin-top: 1.125rem !important;
 }
 
 .divider-component.instance-6:not(:last-child) {
-	margin-bottom: 0.125rem !important;
+	margin-bottom: 1.125rem !important;
 }
 
 .divider-component.instance-6 {

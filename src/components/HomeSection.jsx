@@ -11,8 +11,8 @@ import { gallerySection } from '../data/gallerySectionData.js'
 function HomeSection() {
   return (
     <section id="home-section">
-      <p id="text12" className="text-component instance-12">- DO NOT USE ANY OF MY ARTWORKS WITHOUT PERMISSION -</p>
-      <p id="text30" className="text-component instance-30">(Updated on 18 March 2026)</p>
+      <p id="text12" className="text-component instance-12" style={{ color: '#fa0000', marginBottom: '32px', fontSize: '24px' }}>engineering, databases, and systems. always building.</p>
+      {/* <p id="text30" className="text-component instance-30" style={{fontSize: "16px"}}>(Backend Software Engineer)</p> */}
       <div id="container04" className="container-component instance-4 columns">
         <div className="wrapper">
           <div className="inner" style={{ display: 'flex' }}>

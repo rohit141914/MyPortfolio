@@ -36,7 +36,7 @@ function App() {
     <div className="site-wrapper">
       <div className="site-main">
         <div className="inner">
-          <Header />
+          {/* <Header /> */}
           <HomeSection />
           <EsSection />
           <KrSection />
