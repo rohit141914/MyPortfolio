@@ -1367,6 +1367,7 @@ body.is-instant::after {
 
 .image-component.instance-2 > .frame {
 	width: 9rem;
+	height: 9rem;
 	border-radius: 100%;
 	transition: none;
 }
