@@ -1,7 +1,7 @@
 export const resumeRows = [
   {
     employment: {
-      dateRange: 'Jan 2025 – Current',
+      dateRange: 'Jan 2025 – Mar 2026',
       studioName: 'Gaglers Inc.',
       position: 'SDE 1',
       location: 'Bengaluru, India',
@@ -39,7 +39,7 @@ export const resumeRows = [
       studioName: 'Family e-Vault',
       position: 'SDE (Backend) Intern',
       location: 'Remote',
-      website: 'https://familyevault.com/',
+      // website: 'https://familyevault.com/',
     },
     experience: {
       title: 'SDE (Backend) Intern',
