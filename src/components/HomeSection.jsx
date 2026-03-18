@@ -12,12 +12,12 @@ function HomeSection() {
   return (
     <section id="home-section">
       <p id="text12" className="text-component instance-12">- DO NOT USE ANY OF MY ARTWORKS WITHOUT PERMISSION -</p>
-      <p id="text30" className="text-component instance-30">(Updated on 21 February 2024, GMT+7)</p>
+      <p id="text30" className="text-component instance-30">(Updated on 18 March 2026)</p>
       <div id="container04" className="container-component instance-4 columns">
         <div className="wrapper">
-          <div className="inner">
-            <ProfileCard />
-            <ResumePanel />
+          <div className="inner" style={{ display: 'flex' }}>
+            <div style={{ flex: 1 }}><ProfileCard /></div>
+            <div style={{ flex: 2 }}><ResumePanel /></div>
           </div>
           <ResumeContent />
         </div>
