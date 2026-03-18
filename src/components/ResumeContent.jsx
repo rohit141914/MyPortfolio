@@ -6,7 +6,7 @@ function ResumeContent() {
   return (
     <div id="text11" className="text-component instance-11">
       {/* Headers */}
-      <div style={{ display: 'flex', gap: '2rem' }}>
+      <div style={{ display: 'flex', gap: '2rem', alignItems: 'flex-end', marginBottom: '8px' }}>
         <span className="p" style={{ flex: 1 }}><strong>• • • EMPLOYMENT • • •</strong></span>
         <span className="p" style={{ flex: 2 }}><strong>• • • PROFESSIONAL EXPERIENCE • • •</strong></span>
       </div>
