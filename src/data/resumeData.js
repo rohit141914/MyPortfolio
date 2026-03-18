@@ -3,7 +3,7 @@ export const resumeRows = [
     employment: {
       dateRange: 'Jan 2025 – Mar 2026',
       studioName: 'Gaglers Inc.',
-      position: 'SDE 1',
+      // position: 'SDE 1',
       location: 'Bengaluru, India',
       website: 'https://gaglers.com/',
     },
@@ -21,7 +21,6 @@ export const resumeRows = [
     employment: {
       dateRange: 'Aug 2024 – Dec 2024',
       studioName: 'Wealthy.in (BFSI & Stock Broking)',
-      position: 'SDE (Backend) Intern',
       location: 'Bengaluru, India',
       website: 'https://wealthy.in/',
     },
@@ -37,7 +36,6 @@ export const resumeRows = [
     employment: {
       dateRange: 'Jan 2024 – Jul 2024',
       studioName: 'Family e-Vault',
-      position: 'SDE (Backend) Intern',
       location: 'Remote',
       // website: 'https://familyevault.com/',
     },
