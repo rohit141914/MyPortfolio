@@ -58,6 +58,7 @@ export const portfolioSections = [
     ],
     buttonId: 'buttons07',
     buttonInstance: '11',
+    scrollAnchor: { id: 'text39', instance: '39', scrollId: 's2' },
   },
   {
     containerId: 'container17',
@@ -78,6 +79,5 @@ export const portfolioSections = [
     ],
     buttonId: 'buttons15',
     buttonInstance: '15',
-    scrollAnchor: { id: 'text39', instance: '39', scrollId: 's2' },
   },
 ]
