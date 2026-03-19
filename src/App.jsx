@@ -12,7 +12,7 @@ function App() {
     mainJsLoaded = true
 
     const script = document.createElement('script')
-    script.src = '/assets/main.js'
+    script.src = import.meta.env.BASE_URL + 'assets/main.js'
 
     script.onload = () => {
       // Fallback: if window 'load' event already fired before main.js loaded,
