@@ -74,8 +74,8 @@ export const portfolioSections = [
     galleryInstance: '6',
     galleryClass: 'full',
     images: [
-      { n: '01', src: '/assets/images/Portfolio/pdf_collaboration/658091e2_original.jpg', href: '/assets/images/gallery06/658091e2_original.jpg', alt: 'PDF Management', caption: 'PDF Management' },
-      { n: '02', src: '/assets/images/Portfolio/pdf_collaboration/9ac0c742_original.jpg', href: '/assets/images/gallery06/9ac0c742_original.jpg', alt: 'Collaboration', caption: 'Collaboration' },
+      { n: '01', src: '/assets/images/Dummy/small_rectangle.jpg', href: '/assets/images/Dummy/small_rectangle.jpg', alt: 'PDF Management', caption: 'PDF Management' },
+      { n: '02', src: '/assets/images/Dummy/long_rectangle.jpg', href: '/assets/images/Dummy/long_rectangle.jpg', alt: 'Collaboration', caption: 'Collaboration' },
     ],
     buttonId: 'buttons15',
     buttonInstance: '15',

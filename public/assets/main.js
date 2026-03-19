@@ -2279,9 +2279,9 @@
 			protect: true,
 		});
 	
-	// Gallery: gallery02.
+	// Gallery: ProfileSecondary.
 		_lightboxGallery.init({
-			id: 'gallery02',
+			id: 'ProfileSecondary',
 			navigation: true,
 			captions: false,
 			mobile: true,
@@ -2323,9 +2323,9 @@
 			protect: true,
 		});
 	
-	// Gallery: gallery14.
+	// Gallery: Gallery.
 		_lightboxGallery.init({
-			id: 'gallery14',
+			id: 'Gallery',
 			navigation: true,
 			captions: true,
 			mobile: true,
