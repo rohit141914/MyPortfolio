@@ -1,3 +1,5 @@
+import { asset } from '../utils/asset.js'
+
 function ResumePanel() {
   return (
     <div>
@@ -5,14 +7,14 @@ function ResumePanel() {
         <div className="inner">
           <ul>
             <li>
-              <a href="/assets/images/Dummy/profile_secondary.jpg" className="thumbnail n01" onContextMenu={(e) => e.preventDefault()} onDragStart={(e) => e.preventDefault()} onAuxClick={(e) => e.preventDefault()}><span className="frame"><img src="/assets/images/Dummy/profile_secondary.jpg" alt="Untitled" title="Untitled" onContextMenu={(e) => e.preventDefault()} onDragStart={(e) => e.preventDefault()} onAuxClick={(e) => e.preventDefault()} /></span></a>
+              <a href={asset('/assets/images/Dummy/profile_secondary.jpg')} className="thumbnail n01" onContextMenu={(e) => e.preventDefault()} onDragStart={(e) => e.preventDefault()} onAuxClick={(e) => e.preventDefault()}><span className="frame"><img src={asset('/assets/images/Dummy/profile_secondary.jpg')} alt="Untitled" title="Untitled" onContextMenu={(e) => e.preventDefault()} onDragStart={(e) => e.preventDefault()} onAuxClick={(e) => e.preventDefault()} /></span></a>
             </li>
           </ul>
         </div>
       </div>
       <ul id="buttons01" className="buttons-component instance-1">
         <li>
-          <a href="https://drive.google.com/file/d/1q6Ht9o_hcB_XMVT25ATIsVsNw0ag82fu/view?usp=sharing" className="n01" role="button" target="_blank" rel="noreferrer"><svg aria-labelledby="buttons01-icon-1-title"><title id="buttons01-icon-1-title">PDF Document</title><use href="/assets/icons.svg#pdf"></use></svg><span className="label">Download My Resume</span></a>
+          <a href="https://drive.google.com/file/d/1q6Ht9o_hcB_XMVT25ATIsVsNw0ag82fu/view?usp=sharing" className="n01" role="button" target="_blank" rel="noreferrer"><svg aria-labelledby="buttons01-icon-1-title"><title id="buttons01-icon-1-title">PDF Document</title><use href={asset('/assets/icons.svg#pdf')}></use></svg><span className="label">Download My Resume</span></a>
         </li>
       </ul>
       <div className="text-component instance-11">

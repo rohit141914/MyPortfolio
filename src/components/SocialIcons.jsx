@@ -1,4 +1,5 @@
 import { ICONS } from '../data/socialIconsData.js'
+import { asset } from '../utils/asset.js'
 
 function SocialIcons({ id, instance }) {
   return (
@@ -11,7 +12,7 @@ function SocialIcons({ id, instance }) {
             <a className={`n0${n}`} href={icon.href} target="_blank" rel="noreferrer" role="button">
               <svg aria-labelledby={titleId}>
                 <title id={titleId}>{icon.label}</title>
-                <use href={`/assets/icons.svg#${icon.key}`}></use>
+                <use href={asset(`/assets/icons.svg#${icon.key}`)}></use>
               </svg>
               <span className="label">{icon.label}</span>
             </a>

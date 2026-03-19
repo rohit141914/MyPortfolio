@@ -1,3 +1,5 @@
+import { asset } from '../utils/asset.js'
+
 function PortfolioSection({
   containerId, containerInstance,
   imageId, imageInstance, imageSrc,
@@ -17,7 +19,7 @@ function PortfolioSection({
           <div className="inner" style={{ display: 'flex', gap: '24px' }}>
             <div style={{ flex: 1 }}>
               <div id={imageId} className={`image-component instance-${imageInstance}`}>
-                <span className="frame"><img src={imageSrc} alt="" onContextMenu={(e) => e.preventDefault()} onDragStart={(e) => e.preventDefault()} /></span>
+                <span className="frame"><img src={asset(imageSrc)} alt="" onContextMenu={(e) => e.preventDefault()} onDragStart={(e) => e.preventDefault()} /></span>
               </div>
               <p id={textId} className={`text-component instance-${textInstance}`}>
                 <span className="p"><strong>{title}</strong></span>
@@ -30,8 +32,8 @@ function PortfolioSection({
                   <ul style={{ display: 'flex', flexWrap: 'wrap', gap: '16px' }}>
                     {images.map((img) => (
                       <li key={img.n}>
-                        <a href={img.href} className={`thumbnail n${img.n}`} onContextMenu={(e) => e.preventDefault()} onDragStart={(e) => e.preventDefault()} onAuxClick={(e) => e.preventDefault()}>
-                          <span className="frame"><img src={img.src} alt={img.alt} data-caption={img.caption} onContextMenu={(e) => e.preventDefault()} onDragStart={(e) => e.preventDefault()} onAuxClick={(e) => e.preventDefault()} /></span>
+                        <a href={asset(img.href)} className={`thumbnail n${img.n}`} onContextMenu={(e) => e.preventDefault()} onDragStart={(e) => e.preventDefault()} onAuxClick={(e) => e.preventDefault()}>
+                          <span className="frame"><img src={asset(img.src)} alt={img.alt} data-caption={img.caption} onContextMenu={(e) => e.preventDefault()} onDragStart={(e) => e.preventDefault()} onAuxClick={(e) => e.preventDefault()} /></span>
                         </a>
                         <div className="caption"><p>{img.caption}</p></div>
                       </li>
@@ -46,7 +48,7 @@ function PortfolioSection({
       <ul id={buttonId} className={`buttons-component instance-${buttonInstance}`}>
         <li>
           <a href="#menu" className="n01" role="button">
-            <svg aria-labelledby={`${buttonId}-icon-1-title`}><title id={`${buttonId}-icon-1-title`}>Chevron Up</title><use href="/assets/icons.svg#arrow-up-alt"></use></svg>
+            <svg aria-labelledby={`${buttonId}-icon-1-title`}><title id={`${buttonId}-icon-1-title`}>Chevron Up</title><use href={asset('/assets/icons.svg#arrow-up-alt')}></use></svg>
             <span className="label">Back to Portfolio Menu</span>
           </a>
         </li>

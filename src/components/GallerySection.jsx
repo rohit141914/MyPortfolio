@@ -1,3 +1,5 @@
+import { asset } from '../utils/asset.js'
+
 function GallerySection({
   scrollAnchor,
   galleryId, galleryInstance,
@@ -15,8 +17,8 @@ function GallerySection({
           <ul style={{ display: 'flex', flexWrap: 'wrap', gap: '12px' }}>
             {images.map((img) => (
               <li key={img.n}>
-                <a href={img.href} className={`thumbnail n${img.n}`} onContextMenu={(e) => e.preventDefault()} onDragStart={(e) => e.preventDefault()} onAuxClick={(e) => e.preventDefault()}>
-                  <span className="frame"><img src={img.src} alt={img.alt} data-caption={img.caption} onContextMenu={(e) => e.preventDefault()} onDragStart={(e) => e.preventDefault()} onAuxClick={(e) => e.preventDefault()} /></span>
+                <a href={asset(img.href)} className={`thumbnail n${img.n}`} onContextMenu={(e) => e.preventDefault()} onDragStart={(e) => e.preventDefault()} onAuxClick={(e) => e.preventDefault()}>
+                  <span className="frame"><img src={asset(img.src)} alt={img.alt} data-caption={img.caption} onContextMenu={(e) => e.preventDefault()} onDragStart={(e) => e.preventDefault()} onAuxClick={(e) => e.preventDefault()} /></span>
                 </a>
               </li>
             ))}
@@ -27,7 +29,7 @@ function GallerySection({
       <ul id={buttonId} className={`buttons-component instance-${buttonInstance}`}>
         <li>
           <a href="#menu" className="n01" role="button">
-            <svg aria-labelledby={`${buttonId}-icon-1-title`}><title id={`${buttonId}-icon-1-title`}>Chevron Up</title><use href="/assets/icons.svg#arrow-up-alt"></use></svg>
+            <svg aria-labelledby={`${buttonId}-icon-1-title`}><title id={`${buttonId}-icon-1-title`}>Chevron Up</title><use href={asset('/assets/icons.svg#arrow-up-alt')}></use></svg>
             <span className="label">Back to Portfolio Menu</span>
           </a>
         </li>

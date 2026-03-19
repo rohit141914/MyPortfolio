@@ -1,4 +1,5 @@
 import ProfileCard from './ProfileCard.jsx'
+import { asset } from '../utils/asset.js'
 import EmploymentEntry from './EmploymentEntry.jsx'
 import { employmentEntries } from '../data/employmentData.js'
 import ExperienceEntry from './ExperienceEntry.jsx'
@@ -19,14 +20,14 @@ function EsSection() {
                 <div className="inner">
                   <ul>
                     <li>
-                      <a href="/assets/images/gallery03/93769694_original.jpg" className="thumbnail n01" onContextMenu={(e) => e.preventDefault()} onDragStart={(e) => e.preventDefault()} onAuxClick={(e) => e.preventDefault()}><span className="frame"><img src="/assets/images/gallery03/93769694_original.jpg" alt="Untitled" title="Untitled" onContextMenu={(e) => e.preventDefault()} onDragStart={(e) => e.preventDefault()} onAuxClick={(e) => e.preventDefault()} /></span></a>
+                      <a href={asset('/assets/images/gallery03/93769694_original.jpg')} className="thumbnail n01" onContextMenu={(e) => e.preventDefault()} onDragStart={(e) => e.preventDefault()} onAuxClick={(e) => e.preventDefault()}><span className="frame"><img src={asset('/assets/images/gallery03/93769694_original.jpg')} alt="Untitled" title="Untitled" onContextMenu={(e) => e.preventDefault()} onDragStart={(e) => e.preventDefault()} onAuxClick={(e) => e.preventDefault()} /></span></a>
                     </li>
                   </ul>
                 </div>
               </div>
               <ul id="buttons06" className="buttons-component instance-6">
                 <li>
-                  <a href="#" className="n01" role="button"><svg aria-labelledby="buttons06-icon-1-title"><title id="buttons06-icon-1-title">PDF Document</title><use href="/assets/icons.svg#pdf"></use></svg><span className="label">Download My Resume</span></a>
+                  <a href="#" className="n01" role="button"><svg aria-labelledby="buttons06-icon-1-title"><title id="buttons06-icon-1-title">PDF Document</title><use href={asset('/assets/icons.svg#pdf')}></use></svg><span className="label">Download My Resume</span></a>
                 </li>
               </ul>
               <p id="text31" className="text-component instance-31">
@@ -76,7 +77,7 @@ function EsSection() {
             </ul>
             <ul id="buttons05" className="buttons-component instance-5">
               <li>
-                <a href="#s10-es" className="n01" role="button"><svg aria-labelledby="buttons05-icon-1-title"><title id="buttons05-icon-1-title">Folder (Alt)</title><use href="/assets/icons.svg#folder-alt"></use></svg><span className="label">Gallery</span></a>
+                <a href="#s10-es" className="n01" role="button"><svg aria-labelledby="buttons05-icon-1-title"><title id="buttons05-icon-1-title">Folder (Alt)</title><use href={asset('/assets/icons.svg#folder-alt')}></use></svg><span className="label">Gallery</span></a>
               </li>
             </ul>
           </div>
@@ -84,13 +85,13 @@ function EsSection() {
       </div>
       <ul id="buttons09" data-scroll-id="s1-es" data-scroll-behavior="default" data-scroll-offset="0" data-scroll-speed="3" className="buttons-component instance-9">
         <li>
-          <a href="#menu-es" className="n01" role="button"><svg aria-labelledby="buttons09-icon-1-title"><title id="buttons09-icon-1-title">Chevron Up</title><use href="/assets/icons.svg#arrow-up-alt"></use></svg><span className="label">Back to Portfolio Menu</span></a>
+          <a href="#menu-es" className="n01" role="button"><svg aria-labelledby="buttons09-icon-1-title"><title id="buttons09-icon-1-title">Chevron Up</title><use href={asset('/assets/icons.svg#arrow-up-alt')}></use></svg><span className="label">Back to Portfolio Menu</span></a>
         </li>
       </ul>
       <hr id="divider03" className="divider-component instance-3" />
       <ul id="buttons10" data-scroll-id="s10-es" data-scroll-behavior="default" data-scroll-offset="0" data-scroll-speed="3" className="buttons-component instance-10">
         <li>
-          <a href="#menu-es" className="n01" role="button"><svg aria-labelledby="buttons10-icon-1-title"><title id="buttons10-icon-1-title">Chevron Up</title><use href="/assets/icons.svg#arrow-up-alt"></use></svg><span className="label">Back to Portfolio Menu</span></a>
+          <a href="#menu-es" className="n01" role="button"><svg aria-labelledby="buttons10-icon-1-title"><title id="buttons10-icon-1-title">Chevron Up</title><use href={asset('/assets/icons.svg#arrow-up-alt')}></use></svg><span className="label">Back to Portfolio Menu</span></a>
         </li>
       </ul>
       <hr id="divider07" className="divider-component instance-7" />
