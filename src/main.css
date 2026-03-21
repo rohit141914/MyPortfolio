@@ -696,7 +696,7 @@ body.is-instant::after {
 	margin-right: var(--margin-right);
 	--margin-left: 0;
 	--margin-right: auto;
-	color: #384245;
+	color: #c1bbb3 ;
 	font-family: 'Fira Sans Condensed', sans-serif;
 	letter-spacing: 0.025rem;
 	width: calc(100% + 0.025rem);
@@ -2275,7 +2275,7 @@ body.is-instant::after {
 	font-size: 0.75em;
 	font-weight: 500;
 	border-radius: 0.25rem;
-	background-color: #525F63;
+	background-color: #444a4d !important;
 	color: #F0FAF9;
 	transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
 }
@@ -2300,7 +2300,7 @@ body.is-instant::after {
 }
 
 .buttons-component.instance-1 > li > a:hover {
-	background-color: #6D7D82 !important;
+	background-color: #525F63 !important;
 }
 
 .buttons-component.instance-2 {
@@ -2409,13 +2409,14 @@ body.is-instant::after {
 	direction: var(--site-language-direction);
 	overflow: hidden;
 	text-overflow: ellipsis;
-	background-color: #525F63;
-	color: #F0FAF9;
+	background-color: #444a4d !important;
+	color: #F0FAF9 !important;
 	transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
 }
 
 .buttons-component.instance-4 > li > a:hover {
 	background-color: #525F63 !important;
+	color: #F0FAF9 !important;
 }
 
 .buttons-component.instance-7 {
@@ -2439,8 +2440,8 @@ body.is-instant::after {
 	font-size: 0.75em;
 	font-weight: 500;
 	border-radius: 0.25rem;
-	background-color: #5E827E;
-	color: #F0FAF9;
+	background-color: #4b6865 !important;
+	color: #F0FAF9 !important;
 	transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
 }
 
@@ -2464,7 +2465,7 @@ body.is-instant::after {
 }
 
 .buttons-component.instance-7 > li > a:hover {
-	background-color: #6E9C97 !important;
+	background-color: #507572 !important;
 }
 
 .buttons-component.instance-11 {
@@ -2488,7 +2489,7 @@ body.is-instant::after {
 	font-size: 0.75em;
 	font-weight: 500;
 	border-radius: 0.25rem;
-	background-color: #9AABA9;
+	background-color: #4b6865 !important;
 	color: #F0FAF9;
 	transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
 }
@@ -2513,7 +2514,7 @@ body.is-instant::after {
 }
 
 .buttons-component.instance-11 > li > a:hover {
-	background-color: #7B9491 !important;
+	background-color: #507572 !important;
 }
 
 .buttons-component.instance-15 {
@@ -2537,7 +2538,7 @@ body.is-instant::after {
 	font-size: 0.75em;
 	font-weight: 500;
 	border-radius: 0.25rem;
-	background-color: #9AABA9;
+	background-color: #4b6865 !important;
 	color: #F0FAF9;
 	transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
 }
@@ -2562,7 +2563,7 @@ body.is-instant::after {
 }
 
 .buttons-component.instance-15 > li > a:hover {
-	background-color: #7B9491 !important;
+	background-color: #507572 !important;
 }
 
 .buttons-component.instance-17 {
@@ -2782,7 +2783,7 @@ body.is-instant::after {
 	font-size: 0.75em;
 	font-weight: 500;
 	border-radius: 0.25rem;
-	background-color: #9AABA9;
+	background-color: #4b6865 !important;
 	color: #F0FAF9;
 	transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
 }
@@ -2807,7 +2808,7 @@ body.is-instant::after {
 }
 
 .buttons-component.instance-8 > li > a:hover {
-	background-color: #7B9491 !important;
+	background-color: #507572 !important;
 }
 
 .buttons-component.instance-9 {

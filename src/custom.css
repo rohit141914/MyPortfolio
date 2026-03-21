@@ -1,8 +1,213 @@
+/* Tagline */
+p#text12.tagline {
+  color: #fa0000 !important;
+  margin-bottom: 32px !important;
+  font-size: 24px !important;
+}
+
 /* ProfileCard */
+#text10 a,
+#text10 a:hover {
+  cursor: default;
+  color: #a78bfa  !important;
+  text-decoration: underline;
+}
+
+
 .text-nowrap {
   white-space: nowrap;
 }
 
 .text-center {
   text-align: center !important;
+}
+
+/* ── Dark Theme ─────────────────────────────────────────── */
+
+:root {
+  color-scheme: dark;
+}
+
+/* Base background & text */
+body {
+  background-color: #142828 !important;
+  color: #c1bbb3 !important;
+}
+
+/* Override Carrd's light background on line 13 */
+body::before,
+#wrapper {
+  background-color: #0d0d0f !important;
+}
+
+/* All text-component elements */
+h1, h2, h3, h4, h5, h6, p, span, div, li, a,
+.text-component {
+  color: #c1bbb3;
+}
+
+/* Carrd's main text color overrides */
+.text-component.instance-1,
+.text-component.instance-2,
+.text-component.instance-3,
+.text-component.instance-4,
+.text-component.instance-5,
+.text-component.instance-6,
+.text-component.instance-7,
+.text-component.instance-8,
+.text-component.instance-9,
+.text-component.instance-10,
+.text-component.instance-11,
+.text-component.instance-12,
+.text-component.instance-18,
+.text-component.instance-21,
+.text-component.instance-22,
+.text-component.instance-23,
+.text-component.instance-27,
+.text-component.instance-28,
+.text-component.instance-30,
+.text-component.instance-31,
+.text-component.instance-32,
+.text-component.instance-36,
+.text-component.instance-43 {
+  color: #c1bbb3 !important;
+}
+
+/* Purple accent → lighter violet for dark bg */
+a {
+  color: #a78bfa !important;
+}
+
+a:hover {
+  color: #c4b5fd !important;
+}
+
+/* SVG icon fills */
+svg {
+  fill: #c1bbb3 !important;
+}
+
+/* Code blocks */
+code {
+  background-color: rgba(255, 255, 255, 0.08) !important;
+  color: #c1bbb3 !important;
+  border-radius: 3px;
+}
+
+/* Horizontal dividers */
+hr.divider-component {
+  border-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Buttons */
+.buttons-component li a {
+  background-color: #1e1e2e !important;
+  color: #c1bbb3 !important;
+  border-color: rgba(255, 255, 255, 0.12) !important;
+}
+
+.buttons-component li a:hover {
+  background-color: #2a2a3e !important;
+  color: #a78bfa !important;
+}
+
+/* Gallery / lightbox overlay */
+#lightbox {
+  background-color: rgba(0, 0, 0, 0.92) !important;
+}
+
+/* Container wrappers */
+.container-component > .wrapper {
+  background-color: transparent !important;
+}
+
+/* Image frames */
+.image-component .frame,
+.gallery-component .frame {
+  background-color: #1a1a22 !important;
+}
+
+/* Thumbnail hover */
+.gallery-component a.thumbnail:hover .frame {
+  border-color: #a78bfa !important;
+}
+
+/* Footer */
+.footer-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0;
+}
+
+.footer-brand {
+  font-weight: 600;
+}
+
+.footer-links {
+  display: flex;
+  gap: 24px;
+}
+
+/* Pages (Contact, Terms, Privacy) */
+.page-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 48px 24px;
+}
+
+.page-content {
+  max-width: 720px;
+  width: 100%;
+}
+
+.page-back {
+  display: inline-block;
+  margin-bottom: 32px;
+  font-size: 14px;
+}
+
+.page-content h1 {
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+
+.page-content h2 {
+  font-size: 18px;
+  margin-top: 32px;
+  margin-bottom: 8px;
+}
+
+.page-content p {
+  line-height: 1.7;
+  margin-bottom: 12px;
+}
+
+.page-updated {
+  font-size: 13px;
+  opacity: 0.6;
+  margin-bottom: 32px;
+}
+
+.contact-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-top: 24px;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0d0d0f;
+}
+::-webkit-scrollbar-thumb {
+  background: #2e2e40;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a78bfa;
 }
