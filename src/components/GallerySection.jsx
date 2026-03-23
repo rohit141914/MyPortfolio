@@ -28,7 +28,7 @@ function GallerySection({
       <p id="text09" className="text-component instance-9"><br /></p>
       <ul id={buttonId} className={`buttons-component instance-${buttonInstance}`}>
         <li>
-          <a href="#menu" className="n01" role="button">
+          <a href="javascript:void(0)" className="n01" role="button" onClick={() => document.getElementById('text37')?.scrollIntoView({ behavior: 'smooth' })}>
             <svg aria-labelledby={`${buttonId}-icon-1-title`}><title id={`${buttonId}-icon-1-title`}>Chevron Up</title><use href={asset('/assets/icons.svg#arrow-up-alt')}></use></svg>
             <span className="label">Back to Portfolio Menu</span>
           </a>
