@@ -171,12 +171,14 @@ hr.divider-component {
 .page-content h1 {
   font-size: 32px;
   margin-bottom: 16px;
+  color: #64FFDA;
 }
 
 .page-content h2 {
   font-size: 18px;
   margin-top: 32px;
   margin-bottom: 8px;
+  color: #64FFDA;
 }
 
 .page-content p {
