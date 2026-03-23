@@ -1,3 +1,38 @@
+/* Dots separator */
+.dots-separator {
+  color: #c1bbb3;
+  font-size: 16px;
+  display: block;
+  position: relative;
+  width: 50% !important;
+  overflow: hidden;
+  white-space: nowrap;
+  text-align: justify;
+  margin-top: 1rem;
+}
+
+/* ResumeContent */
+.resume-header-row {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-end;
+  margin-bottom: 8px;
+}
+
+.resume-bottom-row {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.resume-col-1 {
+  flex: 1;
+}
+
+.resume-col-2 {
+  flex: 2;
+}
+
 /* Tagline */
 p#text12.tagline {
   color: #fa0000 !important;
@@ -8,7 +43,6 @@ p#text12.tagline {
 /* ProfileCard */
 #text10 a,
 #text10 a:hover {
-  cursor: default;
   color: #a78bfa  !important;
   text-decoration: underline;
 }
@@ -116,6 +150,51 @@ hr.divider-component {
   background-color: rgba(0, 0, 0, 0.92) !important;
 }
 
+.lightbox-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.92);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.lightbox-content {
+  position: relative;
+  max-width: 90vw;
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lightbox-img {
+  max-width: 90vw;
+  max-height: 80vh;
+  object-fit: contain;
+  display: block;
+}
+
+.lightbox-caption {
+  margin-top: 12px;
+  font-size: 14px;
+  color: #c1bbb3;
+  text-align: center;
+}
+
+.lightbox-close {
+  position: absolute;
+  top: -36px;
+  right: 0;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  line-height: 1;
+}
+
 /* Container wrappers */
 .container-component > .wrapper {
   background-color: transparent !important;
@@ -141,7 +220,7 @@ hr.divider-component {
 }
 
 .footer-brand {
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .footer-links {
