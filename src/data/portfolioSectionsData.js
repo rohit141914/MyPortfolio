@@ -13,8 +13,8 @@ export const portfolioSections = [
     galleryInstance: '1',
     galleryClass: 'full',
     images: [
-      { n: '01', src: '/assets/images/Portfolio/Figma_assistant/Figma_assistant1.png', href: '/assets/images/gallery01/rohit.jpg', alt: 'Figma AI Assistant', caption: 'Figma AI Assistant' },
-      { n: '02', src: '/assets/images/Portfolio/Figma_assistant/Figma_assistant2.png', href: '/assets/images/gallery01/rohit.jpg', alt: 'Figma AI Assistant', caption: 'Figma AI Assistant' },
+      { n: '01', src: '/assets/images/Portfolio/Figma_assistant/Figma_assistant1.png', href: '/assets/images/Portfolio/Figma_assistant/Figma_assistant1.png', alt: 'Figma AI Assistant', caption: 'Figma AI Assistant' },
+      { n: '02', src: '/assets/images/Portfolio/Figma_assistant/Figma_assistant2.png', href: '/assets/images/Portfolio/Figma_assistant/Figma_assistant2.png', alt: 'Figma AI Assistant', caption: 'Figma AI Assistant' },
     ],
     buttonId: 'buttons11',
     buttonInstance: '11',
@@ -53,8 +53,8 @@ export const portfolioSections = [
     galleryInstance: '8',
     galleryClass: 'full',
     images: [
-      { n: '01', src: '/assets/images/Portfolio/Quiz_application/quiz_dark.png', href: '/assets/images/gallery08/quiz_light.jpg', alt: 'Quiz Web App', caption: 'Quiz Web App' },
-      { n: '02', src: '/assets/images/Portfolio/Quiz_application/admin_dark.png', href: '/assets/images/gallery08/admin_light.jpg', alt: 'Admin Panel', caption: 'Admin Panel' }
+      { n: '01', src: '/assets/images/Portfolio/Quiz_application/quiz_dark.png', href: '/assets/images/Portfolio/Quiz_application/quiz_light.png', alt: 'Quiz Web App', caption: 'Quiz Web App' },
+      { n: '02', src: '/assets/images/Portfolio/Quiz_application/admin_dark.png', href: '/assets/images/Portfolio/Quiz_application/admin_light.png', alt: 'Admin Panel', caption: 'Admin Panel' }
     ],
     buttonId: 'buttons07',
     buttonInstance: '11',
