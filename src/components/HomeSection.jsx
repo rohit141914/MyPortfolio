@@ -17,7 +17,7 @@ function HomeSection() {
       <div id="container04" className="container-component instance-4 columns">
         <div className="wrapper">
           <div className="inner" style={{ display: 'flex' }}>
-            <div style={{ flex: 1 }}><ProfileCard /></div>
+            <div style={{ flex: 1, paddingLeft: '33px' }}><ProfileCard /></div>
             <div style={{ flex: 2 }}><ResumePanel /></div>
           </div>
           <ResumeContent />

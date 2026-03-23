@@ -640,7 +640,6 @@ body.is-instant::after {
 	--margin-right: auto;
 	color: #384245;
 	font-family: 'Fira Sans Condensed', sans-serif;
-	padding-left: 1.25rem;
 	padding-right: 0;
 	letter-spacing: 0.025rem;
 	width: calc(100% + 0.025rem);
