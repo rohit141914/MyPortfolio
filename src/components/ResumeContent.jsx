@@ -8,7 +8,7 @@ function ResumeContent() {
       {/* Headers */}
       <span className="p dots-separator">{'.' .repeat(200)}</span>
       <div className="resume-header-row">
-        <span className="p resume-col-1"><strong>• • • EMPLOYMENT • • •</strong></span>
+        <span className="p resume-col-1 hide-mobile"><strong>• • • EMPLOYMENT • • •</strong></span>
         <span className="p resume-col-2"><strong>• • • PROFESSIONAL EXPERIENCE • • •</strong></span>
       </div>
 

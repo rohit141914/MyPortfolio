@@ -11,6 +11,32 @@
   margin-top: 1rem;
 }
 
+/* ResumeRow */
+.resume-row {
+  display: flex;
+  gap: 2rem;
+}
+
+.resume-row-col-1 {
+  flex: 1;
+  font-size: 16px;
+}
+
+.resume-row-col-2 {
+  flex: 2;
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .resume-row {
+    flex-direction: column;
+  }
+
+  .hide-mobile {
+    display: none !important;
+  }
+}
+
 /* ResumeContent */
 .resume-header-row {
   display: flex;

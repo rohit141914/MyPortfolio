@@ -1,7 +1,7 @@
 function ResumeRow({ employment, experience }) {
   return (
-    <div style={{ display: 'flex', gap: '2rem' }}>
-      <div style={{ flex: 1, fontSize: '16px' }}>
+    <div className="resume-row">
+      <div className="resume-row-col-1">
         {employment && (
           <span className="p">
             <code>{employment.dateRange}</code>
@@ -14,7 +14,7 @@ function ResumeRow({ employment, experience }) {
           </span>
         )}
       </div>
-      <div style={{ flex: 2, fontSize: '16px' }}>
+      <div className="resume-row-col-2">
         {experience?.isFreelance ? (
           <span className="p"><code>{experience.dateRange}</code><br />{experience.label}</span>
         ) : experience && (
