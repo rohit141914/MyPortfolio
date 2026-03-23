@@ -911,33 +911,6 @@ body.is-instant::after {
 	margin-top: 1rem;
 }
 
-.text-component.instance-39 {
-	text-align: center;
-	max-width: rem;
-	margin-left: var(--margin-left);
-	margin-right: var(--margin-right);
-	--margin-left: auto;
-	--margin-right: auto;
-	color: #4B495C;
-	font-family: 'Heebo', sans-serif;
-	letter-spacing: -0.025rem;
-	width: 100%;
-	font-size: 1em;
-	line-height: 1.875;
-	font-weight: 700;
-}
-
-.text-component.instance-39 a:hover {
-	color: #886CE4;
-}
-
-.text-component.instance-39 a {
-	text-decoration: underline;
-}
-
-.text-component.instance-39 span.p:nth-child(n + 2) {
-	margin-top: 1rem;
-}
 
 .text-component.instance-42 {
 	text-align: center;
@@ -1051,33 +1024,6 @@ body.is-instant::after {
 	margin-top: 1rem;
 }
 
-.text-component.instance-43 {
-	text-align: center;
-	max-width: rem;
-	margin-left: var(--margin-left);
-	margin-right: var(--margin-right);
-	--margin-left: auto;
-	--margin-right: auto;
-	color: #4B495C;
-	font-family: 'Heebo', sans-serif;
-	letter-spacing: -0.025rem;
-	width: 100%;
-	font-size: 1em;
-	line-height: 1.875;
-	font-weight: 700;
-}
-
-.text-component.instance-43 a:hover {
-	color: #886CE4;
-}
-
-.text-component.instance-43 a {
-	text-decoration: underline;
-}
-
-.text-component.instance-43 span.p:nth-child(n + 2) {
-	margin-top: 1rem;
-}
 
 .text-component.instance-9 {
 	text-align: center;
@@ -5748,13 +5694,6 @@ body.is-instant::after {
 		line-height: 1.875;
 	}
 	
-	.text-component.instance-39 {
-		letter-spacing: -0.021875rem;
-		width: 100%;
-		font-size: 1em;
-		line-height: 1.875;
-	}
-	
 	.text-component.instance-42 {
 		letter-spacing: -0.021875rem;
 		width: 100%;
@@ -5777,13 +5716,6 @@ body.is-instant::after {
 	}
 	
 	.text-component.instance-40 {
-		letter-spacing: -0.021875rem;
-		width: 100%;
-		font-size: 1em;
-		line-height: 1.875;
-	}
-	
-	.text-component.instance-43 {
 		letter-spacing: -0.021875rem;
 		width: 100%;
 		font-size: 1em;
@@ -6921,9 +6853,6 @@ body.is-instant::after {
 		font-size: 0.875em;
 	}
 	
-	.text-component.instance-39 {
-		font-size: 1em;
-	}
 	
 	.text-component.instance-42 {
 		font-size: 1em;
@@ -6938,10 +6867,6 @@ body.is-instant::after {
 	}
 	
 	.text-component.instance-40 {
-		font-size: 1em;
-	}
-	
-	.text-component.instance-43 {
 		font-size: 1em;
 	}
 	

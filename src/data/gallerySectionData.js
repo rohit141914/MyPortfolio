@@ -1,5 +1,4 @@
 export const gallerySection = {
-  scrollAnchor: { id: 'text43', instance: '43', scrollId: 's7' },
   galleryId: 'Gallery',
   galleryInstance: '14',
   images: [
