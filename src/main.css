@@ -646,6 +646,7 @@ body.is-instant::after {
 	font-size: 0.875em;
 	line-height: 1.875;
 	font-weight: 400;
+	margin-top: 0px !important;
 }
 
 .text-component.instance-11 a {

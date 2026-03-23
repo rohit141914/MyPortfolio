@@ -8,7 +8,8 @@
   overflow: hidden;
   white-space: nowrap;
   text-align: justify;
-  margin-top: 1rem;
+  margin-top: 0rem;
+  margin-bottom: 2rem;
 }
 
 /* ResumeRow */
@@ -54,8 +55,12 @@
 .resume-header-row {
   display: flex;
   gap: 2rem;
-  align-items: flex-end;
+  align-items: flex-start;
   margin-bottom: 8px;
+}
+
+.resume-header-row .resume-col-2 {
+  margin-top: 0px !important;
 }
 
 .resume-bottom-row {
@@ -72,9 +77,15 @@
   flex: 2;
 }
 
+/* ResumeContent container */
+div#text11.text-component.instance-11 {
+  margin-top: 0px !important;
+}
+
 /* Tagline */
 p#text12.tagline {
   color: #fa0000 !important;
+  margin-top: 32px !important;
   margin-bottom: 32px !important;
   font-size: 24px !important;
 }

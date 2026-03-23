@@ -2,7 +2,7 @@ export const gallerySection = {
   galleryId: 'Gallery',
   galleryInstance: '14',
   images: [
-    { n: '02', src: '/assets/images/Gallery/2.jpeg', href: '/assets/images/Gallery/2.jpeg', alt: 'Untitled', caption: 'Untitled' },
+    // { n: '02', src: '/assets/images/Gallery/2.jpeg', href: '/assets/images/Gallery/2.jpeg', alt: 'Untitled', caption: 'Untitled' },
     { n: '01', src: '/assets/images/Gallery/1.jpeg', href: '/assets/images/Gallery/1.jpeg', alt: 'Untitled', caption: 'Untitled' },
     { n: '03', src: '/assets/images/Gallery/3.jpeg', href: '/assets/images/Gallery/3.jpeg', alt: 'Untitled', caption: 'Untitled' },
     { n: '05', src: '/assets/images/Gallery/5.jpeg', href: '/assets/images/Gallery/5.jpeg', alt: 'Untitled', caption: 'Untitled' },

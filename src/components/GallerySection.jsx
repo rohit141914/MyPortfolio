@@ -13,7 +13,7 @@ function GallerySection({
         <p id={scrollAnchor.id} data-scroll-id={scrollAnchor.scrollId} data-scroll-behavior="default" data-scroll-offset="0" data-scroll-speed="3" className={`text-component instance-${scrollAnchor.instance}`}><br /></p>
       )}
       <div id={galleryId} className={`gallery-component instance-${galleryInstance}`}>
-        <div className="inner">
+        <div className="inner" style={{width: "100%"}}>
           <ul style={{ display: 'flex', flexWrap: 'wrap', gap: '12px',justifyContent: 'space-between' }}>
             {images.map((img) => (
               <li key={img.n}>
