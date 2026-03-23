@@ -7,11 +7,12 @@ import PortfolioSection from './PortfolioSection.jsx'
 import { portfolioSections } from '../data/portfolioSectionsData.js'
 import GallerySection from './GallerySection.jsx'
 import { gallerySection } from '../data/gallerySectionData.js'
+import Footer from './Footer.jsx'
 
 function HomeSection() {
   return (
     <section id="home-section">
-      <p id="text12" className="text-component instance-12" style={{ color: '#fa0000', marginBottom: '32px', fontSize: '24px' }}>engineering, databases, and systems. always building.</p>
+      <p id="text12" className="text-component instance-12 tagline">engineering, databases, and systems. always building.</p>
       {/* <p id="text30" className="text-component instance-30" style={{fontSize: "16px"}}>(Backend Software Engineer)</p> */}
       <div id="container04" className="container-component instance-4 columns">
         <div className="wrapper">
@@ -35,6 +36,7 @@ function HomeSection() {
       ))}
       <hr id="divider09" className="divider-component instance-9" />
       <GallerySection {...gallerySection} />
+      <Footer />
       <h2 id="text38" className="text-component instance-38">Thank you for your time and attention!</h2>
       <p id="text20" className="text-component instance-20"><br /></p>
     </section>

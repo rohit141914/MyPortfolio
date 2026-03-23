@@ -1,12 +1,14 @@
 import { useEffect } from 'react'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 import Header from './components/Header.jsx'
 import HomeSection from './components/HomeSection.jsx'
-import EsSection from './components/EsSection.jsx'
-import KrSection from './components/KrSection.jsx'
+import ContactPage from './pages/ContactPage.jsx'
+import TermsPage from './pages/TermsPage.jsx'
+import PrivacyPage from './pages/PrivacyPage.jsx'
 
 let mainJsLoaded = false
 
-function App() {
+function MainSite() {
   useEffect(() => {
     if (mainJsLoaded) return
     mainJsLoaded = true
@@ -38,11 +40,22 @@ function App() {
         <div className="inner">
           {/* <Header /> */}
           <HomeSection />
-          <EsSection />
-          <KrSection />
         </div>
       </div>
     </div>
+  )
+}
+
+function App() {
+  return (
+    <HashRouter>
+      <Routes>
+        <Route path="/" element={<MainSite />} />
+        <Route path="/contact" element={<ContactPage />} />
+        <Route path="/terms" element={<TermsPage />} />
+        <Route path="/privacy" element={<PrivacyPage />} />
+      </Routes>
+    </HashRouter>
   )
 }
 
