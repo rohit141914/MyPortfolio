@@ -2290,6 +2290,17 @@
 			protect: true,
 		});
 	
+	// Gallery: gallery09.
+		_lightboxGallery.init({
+			id: 'gallery09',
+			navigation: true,
+			captions: true,
+			mobile: true,
+			mobileNavigation: true,
+			scheme: 'dark',
+			protect: true,
+		});
+
 	// Gallery: gallery01.
 		_lightboxGallery.init({
 			id: 'gallery01',
