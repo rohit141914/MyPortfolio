@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import EmailLink from '../components/EmailLink'
 
 function ContactPage() {
   return (
@@ -10,7 +11,7 @@ function ContactPage() {
 
         <div className="contact-item">
           <strong>Email</strong>
-          <a href="mailto:rohitnainindian@gmail.com">rohitnainindian@gmail.com</a>
+          <EmailLink />
         </div>
         <div className="contact-item">
           <strong>LinkedIn</strong>

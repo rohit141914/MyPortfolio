@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import EmailLink from '../components/EmailLink'
 
 function TermsPage() {
   return (
@@ -66,7 +67,7 @@ function TermsPage() {
         <p>We may revise these Terms and Conditions from time to time. Updates will be reflected on this page with a new "Last updated" date. It is your responsibility to check this page periodically.</p>
 
         <h2>Contact</h2>
-        <p>For any questions regarding these Terms, please contact: <a href="mailto:rohitnainindian@gmail.com">rohitnainindian@gmail.com</a></p>
+        <p>For any questions regarding these Terms, please contact: <EmailLink /></p>
       </div>
     </div>
   )

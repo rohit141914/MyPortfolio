@@ -1,4 +1,5 @@
 import SocialIcons from './SocialIcons.jsx'
+import EmailLink from './EmailLink'
 import { asset } from '../utils/asset.js'
 
 function ProfileCard() {
@@ -9,7 +10,7 @@ function ProfileCard() {
       </div>
       <h1 id="text02" className="text-component instance-2" style={{ marginTop: '12px', fontSize: '24px' }}>Rohit Nain</h1>
       <h3 id="text03" className="text-component instance-3 text-nowrap">Software Engineer — Backend + AI</h3>
-      <p id="text10" className="text-component instance-10 text-nowrap">Contact: <a>rohitnainindian@gmail.com</a></p>
+      <p id="text10" className="text-component instance-10 text-nowrap">Contact: <EmailLink /></p>
       <p id="text08" className="text-component instance-8 text-center">Bengaluru, India</p>
       <SocialIcons id="icons01" instance="1" />
     </div>

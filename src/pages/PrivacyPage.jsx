@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import EmailLink from '../components/EmailLink'
 
 function PrivacyPage() {
   return (
@@ -9,7 +10,7 @@ function PrivacyPage() {
         <p className="page-updated">Last updated: March 23, 2026</p>
 
         <p>This Privacy Policy applies to all websites, tools, and browser extensions built and maintained by Rohit Nain, accessible from rohitnain.com and its subdomains (e.g., *.rohitnain.com), including any Chrome extensions or web tools hosted under these domains. All of the above are collectively referred to as "rohitnain.com" throughout this document.</p>
-        <p>If you have questions about this Privacy Policy, you may contact us at: <a href="mailto:rohitnainindian@gmail.com">rohitnainindian@gmail.com</a></p>
+        <p>If you have questions about this Privacy Policy, you may contact us at: <EmailLink /></p>
 
         <h2>Consent</h2>
         <p>By using our website or any of our tools and extensions, you hereby consent to this Privacy Policy and agree to its terms.</p>
@@ -60,7 +61,7 @@ function PrivacyPage() {
           <li><strong>Right to data portability</strong> — Request transfer of your data to another organization or directly to you.</li>
           <li><strong>Right to object</strong> — Object to our processing of your personal data under certain conditions.</li>
         </ul>
-        <p>We will respond to all requests within one month. To exercise any of these rights, contact us at <a href="mailto:rohitnainindian@gmail.com">rohitnainindian@gmail.com</a>.</p>
+        <p>We will respond to all requests within one month. To exercise any of these rights, contact us at <EmailLink />.</p>
 
         <h2>CCPA Privacy Rights (California Residents)</h2>
         <p>If you are a California resident, you have the right to:</p>
@@ -69,7 +70,7 @@ function PrivacyPage() {
           <li>Request deletion of your personal data.</li>
           <li>Opt out of the sale of your personal data. (Note: rohitnain.com does not sell personal data.)</li>
         </ul>
-        <p>We will respond to all requests within one month. Contact us at <a href="mailto:rohitnainindian@gmail.com">rohitnainindian@gmail.com</a>.</p>
+        <p>We will respond to all requests within one month. Contact us at <EmailLink />.</p>
 
         <h2>Children's Privacy</h2>
         <p>rohitnain.com does not knowingly collect personal information from children under the age of 13. If you believe a child has provided us with personal information, please contact us immediately and we will take prompt steps to remove such data.</p>
