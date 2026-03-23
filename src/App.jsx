@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import { HashRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Header from './components/Header.jsx'
 import HomeSection from './components/HomeSection.jsx'
 import ContactPage from './pages/ContactPage.jsx'
@@ -48,14 +48,14 @@ function MainSite() {
 
 function App() {
   return (
-    <HashRouter>
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<MainSite />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/terms" element={<TermsPage />} />
         <Route path="/privacy" element={<PrivacyPage />} />
       </Routes>
-    </HashRouter>
+    </BrowserRouter>
   )
 }
 
