@@ -36,6 +36,15 @@
     flex-direction: column;
   }
 
+  .footer-bar {
+    align-items: flex-start !important;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    gap: 8px;
+  }
+
   .hide-mobile {
     display: none !important;
   }
