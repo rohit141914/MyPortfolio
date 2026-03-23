@@ -14,7 +14,7 @@ function GallerySection({
       )}
       <div id={galleryId} className={`gallery-component instance-${galleryInstance}`}>
         <div className="inner">
-          <ul style={{ display: 'flex', flexWrap: 'wrap', gap: '12px' }}>
+          <ul style={{ display: 'flex', flexWrap: 'wrap', gap: '12px',justifyContent: 'space-between' }}>
             {images.map((img) => (
               <li key={img.n}>
                 <a href={asset(img.href)} className={`thumbnail n${img.n}`} onContextMenu={(e) => e.preventDefault()} onDragStart={(e) => e.preventDefault()} onAuxClick={(e) => e.preventDefault()}>
