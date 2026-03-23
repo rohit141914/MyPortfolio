@@ -32,6 +32,10 @@
     flex-direction: column;
   }
 
+  .resume-bottom-row {
+    flex-direction: column;
+  }
+
   .hide-mobile {
     display: none !important;
   }
